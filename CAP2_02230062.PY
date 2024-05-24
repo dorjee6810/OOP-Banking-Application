@@ -1,3 +1,14 @@
+##########
+# Name: Dorji Tshering
+#Department: Electrical
+#Std ID: 02230062
+##########
+#References
+#https://www.freecodecamp.org/news/how-to-build-an-online-banking-system-python-oop-tutorial/
+#https://www.geeksforgeeks.org/python-program-to-create-bankaccount-class-with-deposit-withdraw-function/
+##########
+
+
 import random # will generate random and distinct account number and password while creating bank acount
 import os # connects with operating system and check for existance of files "accounts.txt"
 
