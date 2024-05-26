@@ -16,7 +16,8 @@ ACCOUNTS_FILE = "accounts.txt" # It is a contant that holds filename which conta
 
 
 class Account: # account class definition
-    def __init__(self, account_number, password, account_type, balance=0.0): #initializes the account with the given parameters such as account number password, account type, and an optional initial balance        self.account_number = account_number
+    def __init__(self, account_number, password, account_type, balance=0.0): #initializes the account with the given parameters such as account number password, account type, and an optional initial balance        
+        self.account_number = account_number
         self.password = password
         self.account_type = account_type
         self.balance = balance
